@@ -1,0 +1,6 @@
+*.nc
+*.pcl
+*.tiff
+/data/*
+/figures/*
+*.tar
