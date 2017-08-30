@@ -19,8 +19,8 @@
       </citeinfo>
     </citation>
     <descript>
-      <abstract>Reported hydraulic fracturing treatment water for the Williston Basin from the IHS Markit (TM) database aggregated annually to a 1 square mile grid for the time period of 2000 through 2015. Reported hydraulic fracturing treatment water data were converted to gallons and the well completion date was used to assign treatment water to a given year. Wells with hydraulic fracturing treatment water volumes in unclear units were excluded from the analysis.</abstract>
-      <purpose>These data were compiled to assess the amount of water used for hydraulic fracturing treatments in the Williston Basin</purpose>
+      <abstract>Water used for hydraulic fracturing treatments in the Williston Basin during 2000-2015, was estimated using data reported in IHS Markit (2016). The treatment water volumes were converted to gallons and wells with volumes in unclear units were excluded from the analysis. The well completion date was used to assign treatment water volumes to a given year. The data were aggregated to a one square-mile grid. The aggregated data have been exported as annual GeoTIFF images and bundled into a TAR archive file.</abstract>
+      <purpose>The aggregated data were used to assess the amount of water used for hydraulic fracturing treatments in the Williston Basin during 2000-2015.  The data were used to simulate groundwater responses to increased withdrawals during a hypothetical 10-year drought using a transient groundwater model (described in USGS Professional Paper XXXX, available at http://pubs.usgs.gov/pp/XXXX/).</purpose>
     </descript>
     <timeperd>
       <timeinfo>
@@ -240,7 +240,7 @@
     <techpreq>this data release contains GeoTiff images for each year and variable. These data may be viewed and manipulated with a variety of software including the open source geographic information system QGIS (http://www.qgis.org).</techpreq>
   </distinfo>
   <metainfo>
-    <metd>20170825</metd>
+    <metd>20170830</metd>
     <metc>
       <cntinfo>
         <cntperp>

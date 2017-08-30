@@ -1,6 +1,12 @@
 *.nc
 *.pcl
 *.tiff
-/data/*
-/figures/*
+data/*
+figures/*
 *.tar
+*.doc
+*.docx
+*.csv
+*.xlsx
+*.xls
+*.tif
