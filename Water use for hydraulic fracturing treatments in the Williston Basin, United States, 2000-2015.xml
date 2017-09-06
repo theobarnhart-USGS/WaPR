@@ -5,7 +5,6 @@
       <citeinfo>
         <origin>Theodore B. Barnhart (0000-0002-9682-3217)</origin>
         <origin>Andrew J. Long (0000-0001-7385-8081)</origin>
-        <origin>Joanna N. Thamke (0000-0002-6917-1946)</origin>
         <origin>Seth S. Haines (0000-0003-2611-8165)</origin>
         <origin>Brian Varela (0000-0001-9849-6742)</origin>
         <pubdate>20170824</pubdate>
@@ -215,7 +214,9 @@
         <cntemail>sciencebase@usgs.gov</cntemail>
       </cntinfo>
     </distrib>
-    <distliab>Unless otherwise stated, all data, metadata and related materials are considered to satisfy the quality standards relative to the purpose for which the data were collected. Although these data and associated metadata have been reviewed for accuracy and completeness and approved for release by the U.S. Geological Survey (USGS), no warranty expressed or implied is made regarding the display or utility of the data for other purposes, nor on all computer systems, nor shall the act of distribution constitute any such warranty.</distliab>
+    <distliab>Unless otherwise stated, all data, metadata and related materials are considered to satisfy the quality standards relative to the purpose for which the data were collected. Although these data and associated metadata have been reviewed for accuracy and completeness and approved for release by the U.S. Geological Survey (USGS), no warranty expressed or implied is made regarding the display or utility of the data for other purposes, nor on all computer systems, nor shall the act of distribution constitute any such warranty.&#xD;
+&#xD;
+Any use of trade, firm, or product names is for descriptive purposes only and does not imply endorsement by the U.S. Government.</distliab>
     <stdorder>
       <digform>
         <digtinfo>
@@ -240,7 +241,7 @@
     <techpreq>this data release contains GeoTiff images for each year and variable. These data may be viewed and manipulated with a variety of software including the open source geographic information system QGIS (http://www.qgis.org).</techpreq>
   </distinfo>
   <metainfo>
-    <metd>20170830</metd>
+    <metd>20170906</metd>
     <metc>
       <cntinfo>
         <cntperp>
