@@ -7,7 +7,7 @@
         <origin>Andrew J. Long (0000-0001-7385-8081)</origin>
         <origin>Seth S. Haines (0000-0003-2611-8165)</origin>
         <origin>Brian Varela (0000-0001-9849-6742)</origin>
-        <pubdate>20170824</pubdate>
+        <pubdate>20170918</pubdate>
         <title>Water use for hydraulic fracturing treatments in the Williston Basin, United States, 2000-2015</title>
         <geoform>GeoTIFF</geoform>
         <pubinfo>
@@ -68,7 +68,7 @@
           <postal>80225</postal>
           <country>United States</country>
         </cntaddr>
-        <cntvoice>303-236-5747</cntvoice>
+        <cntvoice>+1-303-236-5747</cntvoice>
         <cntemail>bvarela@usgs.gov</cntemail>
       </cntinfo>
     </ptcontac>
@@ -113,10 +113,10 @@
           <srccurr>2000/01/01-2015/12/31</srccurr>
         </srctime>
         <srccitea>IHS</srccitea>
-        <srccontr>IHS data were summarize in the one square mile gridded data sets presented herein</srccontr>
+        <srccontr>IHS data were summarize in the one square-mile gridded data set presented herein.</srccontr>
       </srcinfo>
       <procstep>
-        <procdesc>Treatment water volumes for individual wells in the Bakken Play were collected from the IHS Markit (TM) database and aggregated to one square mile totals for the region of interest for the years 2000 - 2015. The resultant gridded data sets is: treatment_water - the volume of treatment water used per square mile per year. Data were converted from their original geodatabase format (a fishnet vector object containing 1 square mile polygons with attributes for the hydraulic fracturing treatment water for each year) to raster data (one raster for each year) using ArcPy. These rasters were then re-processed using gdalwarp to make their nodata values and datatype uniform.</procdesc>
+        <procdesc>Water used for hydraulic fracturing treatment associated with oil and gas production wells in the Williston Basin were collected from the IHS Markit (TM) database and aggregated to one square-mile totals for the years 2000 - 2015. The resultant gridded data set is: “treatment_water” - the volume of treatment water used per square mile per year. Data were converted from their original geodatabase format (a fishnet vector object containing one square-mile polygons with attributes for the hydraulic fracturing treatment water for each year) to raster data (one raster for each year) using ArcPy. These rasters were then re-processed using gdalwarp to make their nodata values and datatype uniform.</procdesc>
         <procdate>20170824</procdate>
         <proccont>
           <cntinfo>
@@ -132,7 +132,7 @@
               <postal>59601</postal>
               <country>United States</country>
             </cntaddr>
-            <cntvoice>(406) 457-5900</cntvoice>
+            <cntvoice>+1-406-457-5900</cntvoice>
             <cntemail>tbarnhart@usgs.gov</cntemail>
           </cntinfo>
         </proccont>
@@ -238,10 +238,10 @@ Any use of trade, firm, or product names is for descriptive purposes only and do
       </digform>
       <fees>None</fees>
     </stdorder>
-    <techpreq>this data release contains GeoTiff images for each year and variable. These data may be viewed and manipulated with a variety of software including the open source geographic information system QGIS (http://www.qgis.org).</techpreq>
+    <techpreq>This data release contains GeoTiff images of hydraulic fracturing treatment volumes for each year. These data may be viewed and manipulated with a variety of software including the open source geographic information system QGIS (http://www.qgis.org).</techpreq>
   </distinfo>
   <metainfo>
-    <metd>20170906</metd>
+    <metd>20170918</metd>
     <metc>
       <cntinfo>
         <cntperp>
@@ -256,7 +256,7 @@ Any use of trade, firm, or product names is for descriptive purposes only and do
           <postal>59601</postal>
           <country>US</country>
         </cntaddr>
-        <cntvoice>406-457-5953</cntvoice>
+        <cntvoice>+1-406-457-5900</cntvoice>
         <cntemail>tbarnhart@usgs.gov</cntemail>
       </cntinfo>
     </metc>
