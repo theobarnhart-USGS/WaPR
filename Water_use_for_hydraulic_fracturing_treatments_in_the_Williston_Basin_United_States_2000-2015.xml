@@ -18,7 +18,7 @@
       </citeinfo>
     </citation>
     <descript>
-      <abstract>Water used for hydraulic fracturing treatments in the Williston Basin during 2000-2015, was estimated using data reported in IHS Markit (2016). The treatment water volumes were converted to gallons and wells with volumes in unclear units were excluded from the analysis. The well completion date was used to assign treatment water volumes to a given year. The data were aggregated to a one square-mile grid. The aggregated data have been exported as annual GeoTIFF images and bundled into a TAR archive file.</abstract>
+      <abstract>Water used for hydraulic fracturing treatments in the Williston Basin during 2000-2015, was estimated using data reported in IHS Markit (2016). Hydraulic fracturing treatment data from IHS Markit (2016) may include volumes in a variety of measurement units, and they may include multiple treatments per well. All listed treatments within the study area were converted to gallons and summed on a per-well basis, discounting any treatments for which the specified measurement units were unclear (for example, “sacks”, or “feet”), which were minor. Of 3,734,380 treatments listed within the study area during the timeframe of interest, 0.7% (26,373 records) were not included. For each well, the date listed as the well completion date (typically the date of final preparation of the well for petroleum production) was considered to be the date of the water consumption. Listings for the actual treatment date are incomplete in the IHS Markit (2016) database, but generally the completion date is within a few days, or at most months, of the actual treatment date. The per-well treatment volumes were then mapped to a 1-mile grid using ArcGIS functions. The annual aggregated hydraulic fracturing treatment data were exported as annual GeoTIFF images with a resolution of 1 square mile per pixel and bundled into a TAR archive file.</abstract>
       <purpose>The aggregated data were used to assess the amount of water used for hydraulic fracturing treatments in the Williston Basin during 2000-2015.  The data were used to simulate groundwater responses to increased withdrawals during a hypothetical 10-year drought using a transient groundwater model (described in USGS Professional Paper XXXX, available at http://pubs.usgs.gov/pp/XXXX/).</purpose>
     </descript>
     <timeperd>
@@ -241,7 +241,7 @@ Any use of trade, firm, or product names is for descriptive purposes only and do
     <techpreq>This data release contains GeoTiff images of hydraulic fracturing treatment volumes for each year. These data may be viewed and manipulated with a variety of software including the open source geographic information system QGIS (http://www.qgis.org).</techpreq>
   </distinfo>
   <metainfo>
-    <metd>20170918</metd>
+    <metd>20170921</metd>
     <metc>
       <cntinfo>
         <cntperp>
