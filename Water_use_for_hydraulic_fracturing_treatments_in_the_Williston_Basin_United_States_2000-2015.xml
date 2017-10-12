@@ -37,7 +37,7 @@
     <spdom>
       <bounding>
         <westbc>-108.8021083</westbc>
-        <eastbc>-98.32903056</eastbc>
+        <eastbc>-98.329030560002</eastbc>
         <northbc>50.85649167</northbc>
         <southbc>44.42388333</southbc>
       </bounding>
@@ -46,10 +46,15 @@
       <theme>
         <themekt>USGS Thesaurus</themekt>
         <themekey>hydraulic fracturing</themekey>
+        <themekey>well treatment volumes</themekey>
+        <themekey>withdrawals</themekey>
       </theme>
       <place>
         <placekt>Geographic Names Information System (GNIS)</placekt>
         <placekey>Williston Basin</placekey>
+        <placekey>Montana</placekey>
+        <placekey>North Dakota</placekey>
+        <placekey>South Dakota</placekey>
       </place>
     </keywords>
     <accconst>none</accconst>
@@ -68,7 +73,7 @@
           <postal>80225</postal>
           <country>United States</country>
         </cntaddr>
-        <cntvoice>+1-303-236-5747</cntvoice>
+        <cntvoice>1-303-236-5747</cntvoice>
         <cntemail>bvarela@usgs.gov</cntemail>
       </cntinfo>
     </ptcontac>
@@ -116,7 +121,7 @@
         <srccontr>IHS data were summarize in the one square-mile gridded data set presented herein.</srccontr>
       </srcinfo>
       <procstep>
-        <procdesc>Water used for hydraulic fracturing treatment associated with oil and gas production wells in the Williston Basin were collected from the IHS Markit (TM) database and aggregated to one square-mile totals for the years 2000 - 2015. The resultant gridded data set is: “treatment_water” - the volume of treatment water used per square mile per year. Data were converted from their original geodatabase format (a fishnet vector object containing one square-mile polygons with attributes for the hydraulic fracturing treatment water for each year) to raster data (one raster for each year) using ArcPy. These rasters were then re-processed using gdalwarp to make their nodata values and datatype uniform.</procdesc>
+        <procdesc>Water used for hydraulic fracturing treatment associated with oil and gas production wells in the Williston Basin were collected from the IHS Markit (TM) database and aggregated to one square-mile totals for the years 2000 - 2015. The resultant gridded data set is: “treatment_water” - the volume of treatment water used per grid cell (one square mile) per year. Data were converted from their original geodatabase format (a fishnet vector object containing one square-mile polygons with attributes for the hydraulic fracturing treatment water for each year) to raster data (one raster for each year) using ArcPy (ArcMap version 10.4). These rasters were then re-processed using gdalwarp (gdal version 2.1.4) to make their nodata values and datatype uniform. The treatment_water data set is stored as Band 1 in each GeoTIFF raster.</procdesc>
         <procdate>20170824</procdate>
         <proccont>
           <cntinfo>
@@ -132,7 +137,7 @@
               <postal>59601</postal>
               <country>United States</country>
             </cntaddr>
-            <cntvoice>+1-406-457-5900</cntvoice>
+            <cntvoice>1-406-457-5900</cntvoice>
             <cntemail>tbarnhart@usgs.gov</cntemail>
           </cntinfo>
         </proccont>
@@ -182,12 +187,12 @@
         <enttypds>Seth Haines (shaines@usgs.gov)</enttypds>
       </enttyp>
       <attr>
-        <attrlabl>treatment_water</attrlabl>
-        <attrdef>volume of water in gallons per square mile used for hydraulic fracturing treatments</attrdef>
+        <attrlabl>Band 1</attrlabl>
+        <attrdef>The volume of water in gallons used for hydraulic fracturing treatments per grid cell compiled from IHS Markit (TM).</attrdef>
         <attrdefs>Data from the IHS Markit (TM) US Well History and Production Database. Full citation: IHS Markit™, 2016, US Well History and Production Database: Englewood, Colo., IHS Markit™, accessed August 2016 at http://www.ihsenergy.com. [Available from IHS Markit™, 15 Inverness Way East, Englewood, CO 80112.]</attrdefs>
         <attrdomv>
           <rdom>
-            <rdommin>100</rdommin>
+            <rdommin>311</rdommin>
             <rdommax>109235784</rdommax>
             <attrunit>gallons</attrunit>
           </rdom>
@@ -199,7 +204,7 @@
     <distrib>
       <cntinfo>
         <cntperp>
-          <cntper>ScienceBase</cntper>
+          <cntper>U.S. Geological Survey - Science Base</cntper>
           <cntorg>U.S. Geological Survey</cntorg>
         </cntperp>
         <cntaddr>
@@ -208,7 +213,7 @@
           <city>Denver</city>
           <state>CO</state>
           <postal>80225</postal>
-          <country>United States</country>
+          <country>USA</country>
         </cntaddr>
         <cntvoice>1-888-275-8747</cntvoice>
         <cntemail>sciencebase@usgs.gov</cntemail>
@@ -241,7 +246,7 @@ Any use of trade, firm, or product names is for descriptive purposes only and do
     <techpreq>This data release contains GeoTiff images of hydraulic fracturing treatment volumes for each year. These data may be viewed and manipulated with a variety of software including the open source geographic information system QGIS (http://www.qgis.org).</techpreq>
   </distinfo>
   <metainfo>
-    <metd>20170921</metd>
+    <metd>20171012</metd>
     <metc>
       <cntinfo>
         <cntperp>
@@ -250,13 +255,13 @@ Any use of trade, firm, or product names is for descriptive purposes only and do
         </cntperp>
         <cntaddr>
           <addrtype>mailing and physical</addrtype>
-          <address>3162 Bozeman</address>
+          <address>3162 Bozeman Avenue</address>
           <city>Helena</city>
           <state>MT</state>
           <postal>59601</postal>
-          <country>US</country>
+          <country>USA</country>
         </cntaddr>
-        <cntvoice>+1-406-457-5900</cntvoice>
+        <cntvoice>1-406-457-5900</cntvoice>
         <cntemail>tbarnhart@usgs.gov</cntemail>
       </cntinfo>
     </metc>
@@ -264,4 +269,3 @@ Any use of trade, firm, or product names is for descriptive purposes only and do
     <metstdv>FGDC-STD-001-1998</metstdv>
   </metainfo>
 </metadata>
-
