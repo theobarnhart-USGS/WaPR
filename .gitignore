@@ -11,3 +11,4 @@ figures/*
 *.xls
 *.tif
 *.pdf
+.ipynb_checkpoints/*-checkpoint.ipynb
